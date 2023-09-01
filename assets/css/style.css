@@ -563,6 +563,15 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  /* max-height: 250px; */
+}
+
+.portfolio-wrap img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  object-fit: scale-down;
 }
 
 .portfolio .portfolio-wrap::before {
